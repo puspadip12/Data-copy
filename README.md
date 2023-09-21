@@ -15,17 +15,17 @@ Before you can use this script, ensure you have Node.js installed on your system
 3. Run the following command to execute the script:
 
    ```bash
-   node script.js
+   node app.js
    ```
 
-   Replace `script.js` with the actual name of your JavaScript file if it's different.
+   Replace `app.js` with the actual name of your JavaScript file if it's different.
 
 4. The script will perform the following actions:
    - Read the contents of `text1.txt`.
    - If successful, it will log the file's content to the console.
    - Copy the content to a new file named `copy.txt`.
    - If the copy operation is successful, it will log a success message.
-   - Delete the original file `text.txt` and log a message indicating that old data has been cleared.
+   - Delete the original file `text1.txt` and log a message indicating that old data has been cleared.
 
 ## File Structure
 
@@ -37,7 +37,7 @@ The code consists of the following main components:
 
 - `writeFile` function: This function is called when the content has been successfully written to `copy.txt`. It reports any errors encountered during the write operation.
 
-- `unlink` method: This method is used to delete the original `text.txt` file and report whether the deletion was successful or if any errors occurred.
+- `unlink` method: This method is used to delete the original `text1.txt` file and report whether the deletion was successful or if any errors occurred.
 
 ## Implementation
 
