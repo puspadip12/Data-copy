@@ -16,7 +16,7 @@ function writeFile(error) {
 		console.log('Content has been pasted to copy.txt file');
 	}
 }
-fs.unlink('text.txt', (err) => {
+fs.unlink('text1.txt', (err) => {
 	if (err) {
 		console.error(`Error deleting file: ${err}`);
 	} else {
